@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>localStorage</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="h1">Bonjour inconnu!</h1>
+
+    <div id="formulaire">
+        <label for="prenom">Comment tu t'appelles?</label>
+        <input type="text" id="prenom" placeholder="prenom">
+        <label for="nom">Comment tu t'appelles?</label>
+        <input type="text" id="nom" placeholder="nom">
+        <label for="age">Quelle est votre age?</label>
+        <input type="number" id="age" placeholder="votre age">
+        
+        <button id="bouton" onclick="onSubmit()">OK</button>
+        <button id="supprimer">supprimer</button>
+    </div>
+
+    <table>
+        <thead>
+            <th>prenom</th>
+            <th>nom</th>
+            <th>age</th>
+        </thead>
+        <tbody id="corps">
+            
+        </tbody>
+    </table>
+    
+</body>
+</html>
